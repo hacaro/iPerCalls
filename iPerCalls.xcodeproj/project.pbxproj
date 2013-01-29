@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020F21E616AC2F3D002352D3 /* AMTextFieldNumberPad.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 020F21E516AC2F3D002352D3 /* AMTextFieldNumberPad.bundle */; };
+		020F21EA16AC2F53002352D3 /* AMTextFieldNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 020F21E916AC2F53002352D3 /* AMTextFieldNumberPad.m */; };
+		021ABE2616AB0077005BAA89 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021ABE2516AB0077005BAA89 /* AudioToolbox.framework */; };
+		021ABE2D16AB1566005BAA89 /* DoneDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 021ABE2C16AB1566005BAA89 /* DoneDown.png */; };
+		021ABE2F16AB1573005BAA89 /* DoneUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 021ABE2E16AB1573005BAA89 /* DoneUp.png */; };
+		021ABE3316AB1A54005BAA89 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 021ABE3216AB1A54005BAA89 /* call.png */; };
+		021F6FAD16502C82008B4057 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021F6FAB16502C82008B4057 /* SettingsViewController.m */; };
+		021F6FAE16502C82008B4057 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 021F6FAC16502C82008B4057 /* SettingsViewController.xib */; };
+		021F6FB016503426008B4057 /* xion.png in Resources */ = {isa = PBXBuildFile; fileRef = 021F6FAF16503426008B4057 /* xion.png */; };
+		021F6FB216503437008B4057 /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 021F6FB116503437008B4057 /* favorites.png */; };
+		022ECC8B164DBF1700FFE7F3 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 022ECC8A164DBF1700FFE7F3 /* contact.png */; };
+		022ECC8E164DBFDD00FFE7F3 /* voip_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 022ECC8D164DBFDD00FFE7F3 /* voip_alt.png */; };
+		022ECC90164DCF9300FFE7F3 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 022ECC8F164DCF9300FFE7F3 /* gear.png */; };
+		022ECC92164DD00900FFE7F3 /* msn.png in Resources */ = {isa = PBXBuildFile; fileRef = 022ECC91164DD00900FFE7F3 /* msn.png */; };
+		024BEC1E164C207400E8977E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 024BEC1D164C207400E8977E /* background.png */; };
+		025C46C61662677000D6D164 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 025C46C51662677000D6D164 /* Settings.plist */; };
+		0275B28716AAA3D6004AB43F /* e_mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 0275B28616AAA3D6004AB43F /* e_mail.png */; };
+		0275B28916AAA3DF004AB43F /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0275B28816AAA3DF004AB43F /* home.png */; };
+		0275B28C16AAA57B004AB43F /* ViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0275B28A16AAA57B004AB43F /* ViewController4.xib */; };
+		0275B28E16AAA965004AB43F /* SettingsViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0275B28D16AAA965004AB43F /* SettingsViewController4.xib */; };
+		029805601646A4D900E1FC79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0298055F1646A4D900E1FC79 /* UIKit.framework */; };
+		029805621646A4D900E1FC79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029805611646A4D900E1FC79 /* Foundation.framework */; };
+		029805641646A4D900E1FC79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029805631646A4D900E1FC79 /* CoreGraphics.framework */; };
+		0298056A1646A4D900E1FC79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 029805681646A4D900E1FC79 /* InfoPlist.strings */; };
+		0298056C1646A4D900E1FC79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0298056B1646A4D900E1FC79 /* main.m */; };
+		029805701646A4D900E1FC79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0298056F1646A4D900E1FC79 /* AppDelegate.m */; };
+		029805721646A4D900E1FC79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 029805711646A4D900E1FC79 /* Default.png */; };
+		029805741646A4D900E1FC79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029805731646A4D900E1FC79 /* Default@2x.png */; };
+		029805761646A4D900E1FC79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029805751646A4D900E1FC79 /* Default-568h@2x.png */; };
+		029805791646A4D900E1FC79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029805781646A4D900E1FC79 /* ViewController.m */; };
+		0298057C1646A4D900E1FC79 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0298057A1646A4D900E1FC79 /* ViewController.xib */; };
+		029805831646A70400E1FC79 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029805821646A70400E1FC79 /* AddressBook.framework */; };
+		029805851646A70700E1FC79 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029805841646A70700E1FC79 /* AddressBookUI.framework */; };
+		02D4E9E316AD951C00844482 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D4E9E216AD951C00844482 /* Icon.png */; };
+		02D4E9E516AD952500844482 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D4E9E416AD952500844482 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020F21E516AC2F3D002352D3 /* AMTextFieldNumberPad.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMTextFieldNumberPad.bundle; sourceTree = "<group>"; };
+		020F21E816AC2F53002352D3 /* AMTextFieldNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTextFieldNumberPad.h; sourceTree = "<group>"; };
+		020F21E916AC2F53002352D3 /* AMTextFieldNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTextFieldNumberPad.m; sourceTree = "<group>"; };
+		021ABE2516AB0077005BAA89 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		021ABE2C16AB1566005BAA89 /* DoneDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoneDown.png; sourceTree = "<group>"; };
+		021ABE2E16AB1573005BAA89 /* DoneUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoneUp.png; sourceTree = "<group>"; };
+		021ABE3216AB1A54005BAA89 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		021F6FAA16502C82008B4057 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		021F6FAB16502C82008B4057 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		021F6FAC16502C82008B4057 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		021F6FAF16503426008B4057 /* xion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xion.png; sourceTree = "<group>"; };
+		021F6FB116503437008B4057 /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites.png; sourceTree = "<group>"; };
+		022ECC8A164DBF1700FFE7F3 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		022ECC8D164DBFDD00FFE7F3 /* voip_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voip_alt.png; sourceTree = "<group>"; };
+		022ECC8F164DCF9300FFE7F3 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		022ECC91164DD00900FFE7F3 /* msn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msn.png; sourceTree = "<group>"; };
+		024BEC1D164C207400E8977E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		025C46C51662677000D6D164 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Settings.plist; path = iPersonalCalls/Settings.plist; sourceTree = SOURCE_ROOT; };
+		0275B28616AAA3D6004AB43F /* e_mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e_mail.png; sourceTree = "<group>"; };
+		0275B28816AAA3DF004AB43F /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		0275B28B16AAA57B004AB43F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController4.xib; sourceTree = "<group>"; };
+		0275B28D16AAA965004AB43F /* SettingsViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController4.xib; sourceTree = "<group>"; };
+		0298055B1646A4D900E1FC79 /* iPerCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPerCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0298055F1646A4D900E1FC79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		029805611646A4D900E1FC79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		029805631646A4D900E1FC79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		029805671646A4D900E1FC79 /* iPerCalls-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPerCalls-Info.plist"; sourceTree = "<group>"; };
+		029805691646A4D900E1FC79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0298056B1646A4D900E1FC79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0298056D1646A4D900E1FC79 /* iPerCalls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPerCalls-Prefix.pch"; sourceTree = "<group>"; };
+		0298056E1646A4D900E1FC79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0298056F1646A4D900E1FC79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		029805711646A4D900E1FC79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		029805731646A4D900E1FC79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		029805751646A4D900E1FC79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		029805771646A4D900E1FC79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		029805781646A4D900E1FC79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0298057B1646A4D900E1FC79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		029805821646A70400E1FC79 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		029805841646A70700E1FC79 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		02D4E9E216AD951C00844482 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		02D4E9E416AD952500844482 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		029805581646A4D900E1FC79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021ABE2616AB0077005BAA89 /* AudioToolbox.framework in Frameworks */,
+				029805851646A70700E1FC79 /* AddressBookUI.framework in Frameworks */,
+				029805831646A70400E1FC79 /* AddressBook.framework in Frameworks */,
+				029805601646A4D900E1FC79 /* UIKit.framework in Frameworks */,
+				029805621646A4D900E1FC79 /* Foundation.framework in Frameworks */,
+				029805641646A4D900E1FC79 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025C46C4166266C300D6D164 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0275B28816AAA3DF004AB43F /* home.png */,
+				0275B28616AAA3D6004AB43F /* e_mail.png */,
+				021F6FB116503437008B4057 /* favorites.png */,
+				021F6FAF16503426008B4057 /* xion.png */,
+				022ECC91164DD00900FFE7F3 /* msn.png */,
+				022ECC8F164DCF9300FFE7F3 /* gear.png */,
+				022ECC8D164DBFDD00FFE7F3 /* voip_alt.png */,
+				022ECC8A164DBF1700FFE7F3 /* contact.png */,
+				024BEC1D164C207400E8977E /* background.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		029805501646A4D900E1FC79 = {
+			isa = PBXGroup;
+			children = (
+				02D4E9E416AD952500844482 /* Icon@2x.png */,
+				02D4E9E216AD951C00844482 /* Icon.png */,
+				021ABE2516AB0077005BAA89 /* AudioToolbox.framework */,
+				029805841646A70700E1FC79 /* AddressBookUI.framework */,
+				029805821646A70400E1FC79 /* AddressBook.framework */,
+				029805651646A4D900E1FC79 /* iPersonalCalls */,
+				0298055E1646A4D900E1FC79 /* Frameworks */,
+				0298055C1646A4D900E1FC79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0298055C1646A4D900E1FC79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0298055B1646A4D900E1FC79 /* iPerCalls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0298055E1646A4D900E1FC79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0298055F1646A4D900E1FC79 /* UIKit.framework */,
+				029805611646A4D900E1FC79 /* Foundation.framework */,
+				029805631646A4D900E1FC79 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		029805651646A4D900E1FC79 /* iPersonalCalls */ = {
+			isa = PBXGroup;
+			children = (
+				020F21E816AC2F53002352D3 /* AMTextFieldNumberPad.h */,
+				020F21E916AC2F53002352D3 /* AMTextFieldNumberPad.m */,
+				020F21E516AC2F3D002352D3 /* AMTextFieldNumberPad.bundle */,
+				021ABE3216AB1A54005BAA89 /* call.png */,
+				021ABE2E16AB1573005BAA89 /* DoneUp.png */,
+				021ABE2C16AB1566005BAA89 /* DoneDown.png */,
+				025C46C4166266C300D6D164 /* images */,
+				0298056E1646A4D900E1FC79 /* AppDelegate.h */,
+				0298056F1646A4D900E1FC79 /* AppDelegate.m */,
+				0275B28A16AAA57B004AB43F /* ViewController4.xib */,
+				021F6FAA16502C82008B4057 /* SettingsViewController.h */,
+				0275B28D16AAA965004AB43F /* SettingsViewController4.xib */,
+				021F6FAB16502C82008B4057 /* SettingsViewController.m */,
+				021F6FAC16502C82008B4057 /* SettingsViewController.xib */,
+				029805771646A4D900E1FC79 /* ViewController.h */,
+				029805781646A4D900E1FC79 /* ViewController.m */,
+				0298057A1646A4D900E1FC79 /* ViewController.xib */,
+				029805661646A4D900E1FC79 /* Supporting Files */,
+				025C46C51662677000D6D164 /* Settings.plist */,
+			);
+			path = iPersonalCalls;
+			sourceTree = "<group>";
+		};
+		029805661646A4D900E1FC79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				029805671646A4D900E1FC79 /* iPerCalls-Info.plist */,
+				029805681646A4D900E1FC79 /* InfoPlist.strings */,
+				0298056B1646A4D900E1FC79 /* main.m */,
+				0298056D1646A4D900E1FC79 /* iPerCalls-Prefix.pch */,
+				029805711646A4D900E1FC79 /* Default.png */,
+				029805731646A4D900E1FC79 /* Default@2x.png */,
+				029805751646A4D900E1FC79 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0298055A1646A4D900E1FC79 /* iPerCalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0298057F1646A4D900E1FC79 /* Build configuration list for PBXNativeTarget "iPerCalls" */;
+			buildPhases = (
+				029805571646A4D900E1FC79 /* Sources */,
+				029805581646A4D900E1FC79 /* Frameworks */,
+				029805591646A4D900E1FC79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPerCalls;
+			productName = iPersonalCalls;
+			productReference = 0298055B1646A4D900E1FC79 /* iPerCalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		029805521646A4D900E1FC79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.hacaro;
+			};
+			buildConfigurationList = 029805551646A4D900E1FC79 /* Build configuration list for PBXProject "iPerCalls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 029805501646A4D900E1FC79;
+			productRefGroup = 0298055C1646A4D900E1FC79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0298055A1646A4D900E1FC79 /* iPerCalls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		029805591646A4D900E1FC79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0298056A1646A4D900E1FC79 /* InfoPlist.strings in Resources */,
+				029805721646A4D900E1FC79 /* Default.png in Resources */,
+				029805741646A4D900E1FC79 /* Default@2x.png in Resources */,
+				029805761646A4D900E1FC79 /* Default-568h@2x.png in Resources */,
+				0298057C1646A4D900E1FC79 /* ViewController.xib in Resources */,
+				024BEC1E164C207400E8977E /* background.png in Resources */,
+				022ECC8B164DBF1700FFE7F3 /* contact.png in Resources */,
+				022ECC8E164DBFDD00FFE7F3 /* voip_alt.png in Resources */,
+				022ECC90164DCF9300FFE7F3 /* gear.png in Resources */,
+				022ECC92164DD00900FFE7F3 /* msn.png in Resources */,
+				021F6FAE16502C82008B4057 /* SettingsViewController.xib in Resources */,
+				021F6FB016503426008B4057 /* xion.png in Resources */,
+				021F6FB216503437008B4057 /* favorites.png in Resources */,
+				025C46C61662677000D6D164 /* Settings.plist in Resources */,
+				0275B28716AAA3D6004AB43F /* e_mail.png in Resources */,
+				0275B28916AAA3DF004AB43F /* home.png in Resources */,
+				0275B28C16AAA57B004AB43F /* ViewController4.xib in Resources */,
+				0275B28E16AAA965004AB43F /* SettingsViewController4.xib in Resources */,
+				021ABE2D16AB1566005BAA89 /* DoneDown.png in Resources */,
+				021ABE2F16AB1573005BAA89 /* DoneUp.png in Resources */,
+				021ABE3316AB1A54005BAA89 /* call.png in Resources */,
+				020F21E616AC2F3D002352D3 /* AMTextFieldNumberPad.bundle in Resources */,
+				02D4E9E316AD951C00844482 /* Icon.png in Resources */,
+				02D4E9E516AD952500844482 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029805571646A4D900E1FC79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0298056C1646A4D900E1FC79 /* main.m in Sources */,
+				029805701646A4D900E1FC79 /* AppDelegate.m in Sources */,
+				029805791646A4D900E1FC79 /* ViewController.m in Sources */,
+				021F6FAD16502C82008B4057 /* SettingsViewController.m in Sources */,
+				020F21EA16AC2F53002352D3 /* AMTextFieldNumberPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0275B28A16AAA57B004AB43F /* ViewController4.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0275B28B16AAA57B004AB43F /* en */,
+			);
+			name = ViewController4.xib;
+			sourceTree = "<group>";
+		};
+		029805681646A4D900E1FC79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029805691646A4D900E1FC79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0298057A1646A4D900E1FC79 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0298057B1646A4D900E1FC79 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0298057D1646A4D900E1FC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0298057E1646A4D900E1FC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		029805801646A4D900E1FC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPersonalCalls/iPerCalls-Prefix.pch";
+				INFOPLIST_FILE = "iPersonalCalls/iPerCalls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iPerCalls;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		029805811646A4D900E1FC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPersonalCalls/iPerCalls-Prefix.pch";
+				INFOPLIST_FILE = "iPersonalCalls/iPerCalls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iPerCalls;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029805551646A4D900E1FC79 /* Build configuration list for PBXProject "iPerCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0298057D1646A4D900E1FC79 /* Debug */,
+				0298057E1646A4D900E1FC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0298057F1646A4D900E1FC79 /* Build configuration list for PBXNativeTarget "iPerCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029805801646A4D900E1FC79 /* Debug */,
+				029805811646A4D900E1FC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 029805521646A4D900E1FC79 /* Project object */;
+}

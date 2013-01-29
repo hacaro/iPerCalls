@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>prefisso</key>
+	<string>4146</string>
+	<key>destinatario</key>
+	<string>4088</string>
+	<key>fax_sms</key>
+	<string>FAX#</string>
+	<key>salta_messaggio</key>
+	<string>,0</string>
+</dict>
+</plist>
