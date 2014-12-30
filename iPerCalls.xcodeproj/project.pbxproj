@@ -40,8 +40,7 @@
 		0298057C1646A4D900E1FC79 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0298057A1646A4D900E1FC79 /* ViewController.xib */; };
 		029805831646A70400E1FC79 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029805821646A70400E1FC79 /* AddressBook.framework */; };
 		029805851646A70700E1FC79 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029805841646A70700E1FC79 /* AddressBookUI.framework */; };
-		02D4E9E316AD951C00844482 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D4E9E216AD951C00844482 /* Icon.png */; };
-		02D4E9E516AD952500844482 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D4E9E416AD952500844482 /* Icon@2x.png */; };
+		EC23D2D51A531924006FE128 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC23D2D41A531924006FE128 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,8 +84,7 @@
 		0298057B1646A4D900E1FC79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		029805821646A70400E1FC79 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		029805841646A70700E1FC79 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		02D4E9E216AD951C00844482 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		02D4E9E416AD952500844482 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		EC23D2D41A531924006FE128 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iPerCalls/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +123,7 @@
 		029805501646A4D900E1FC79 = {
 			isa = PBXGroup;
 			children = (
-				02D4E9E416AD952500844482 /* Icon@2x.png */,
-				02D4E9E216AD951C00844482 /* Icon.png */,
+				EC23D2D41A531924006FE128 /* Images.xcassets */,
 				021ABE2516AB0077005BAA89 /* AudioToolbox.framework */,
 				029805841646A70700E1FC79 /* AddressBookUI.framework */,
 				029805821646A70400E1FC79 /* AddressBook.framework */,
@@ -251,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0298056A1646A4D900E1FC79 /* InfoPlist.strings in Resources */,
+				EC23D2D51A531924006FE128 /* Images.xcassets in Resources */,
 				029805721646A4D900E1FC79 /* Default.png in Resources */,
 				029805741646A4D900E1FC79 /* Default@2x.png in Resources */,
 				029805761646A4D900E1FC79 /* Default-568h@2x.png in Resources */,
@@ -272,8 +270,6 @@
 				021ABE2F16AB1573005BAA89 /* DoneUp.png in Resources */,
 				021ABE3316AB1A54005BAA89 /* call.png in Resources */,
 				020F21E616AC2F3D002352D3 /* AMTextFieldNumberPad.bundle in Resources */,
-				02D4E9E316AD951C00844482 /* Icon.png in Resources */,
-				02D4E9E516AD952500844482 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,12 +374,16 @@
 		029805801646A4D900E1FC79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPersonalCalls/iPerCalls-Prefix.pch";
 				INFOPLIST_FILE = "iPersonalCalls/iPerCalls-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = iPerCalls;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,12 +392,16 @@
 		029805811646A4D900E1FC79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPersonalCalls/iPerCalls-Prefix.pch";
 				INFOPLIST_FILE = "iPersonalCalls/iPerCalls-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = iPerCalls;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
