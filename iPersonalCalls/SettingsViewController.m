@@ -57,12 +57,10 @@
     }
     NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
     NSDictionary *temp = (NSDictionary *)[NSPropertyListSerialization
-                                          propertyListFromData:plistXML
-                                          mutabilityOption:NSPropertyListMutableContainersAndLeaves
-                                          format:&format
-                                          errorDescription:&errorDesc];
-    if (!temp) {
-        NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
+                                          propertyListWithData:plistXML options:NSPropertyListMutableContainersAndLeaves format:&format error:&errorDesc];
+                                          
+                                          if (!temp) {
+        NSLog(@"Error reading plist: %@, format: %u", errorDesc, format);
     }
     
     prefix.text = [temp objectForKey:@"prefisso"];
@@ -118,9 +116,15 @@
                                                                    @"fax_sms",@"salta_messaggio",nil]];
     
     
-    NSData *plistData = [NSPropertyListSerialization dataFromPropertyList:plistDict
-                                                                   format:NSPropertyListXMLFormat_v1_0
-                                                         errorDescription:&error];
+   // NSData *plistData = [NSPropertyListSerialization dataFromPropertyList:plistDict
+     //                                                              format:NSPropertyListXMLFormat_v1_0
+       //                                                  errorDescription:&error];
+    
+    NSData *plistData = [NSPropertyListSerialization dataWithPropertyList:plistDict format:NSPropertyListXMLFormat_v1_0 options:NSPropertyListReadStreamError error:&error];
+    
+    
+    
+    
     if(plistData) {
         [plistData writeToFile:plistPath atomically:YES];
     }

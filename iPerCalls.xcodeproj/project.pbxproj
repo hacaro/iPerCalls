@@ -222,6 +222,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = com.hacaro;
+				TargetAttributes = {
+					0298055A1646A4D900E1FC79 = {
+						DevelopmentTeam = 8JUTECDDFP;
+					};
+				};
 			};
 			buildConfigurationList = 029805551646A4D900E1FC79 /* Build configuration list for PBXProject "iPerCalls" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,10 +378,11 @@
 		029805801646A4D900E1FC79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPersonalCalls/iPerCalls-Prefix.pch";
 				INFOPLIST_FILE = "iPersonalCalls/iPerCalls-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = iPerCalls;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -386,10 +392,11 @@
 		029805811646A4D900E1FC79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPersonalCalls/iPerCalls-Prefix.pch";
 				INFOPLIST_FILE = "iPersonalCalls/iPerCalls-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = iPerCalls;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

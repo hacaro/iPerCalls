@@ -40,13 +40,13 @@
         plistPath = [[NSBundle mainBundle] pathForResource:@"Settings" ofType:@"plist"];
     }
     NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
+
     NSDictionary *temp = (NSDictionary *)[NSPropertyListSerialization
-                                          propertyListFromData:plistXML
-                                          mutabilityOption:NSPropertyListMutableContainersAndLeaves
-                                          format:&format
-                                          errorDescription:&errorDesc];
+                                          propertyListWithData:plistXML options:NSPropertyListMutableContainersAndLeaves format:&format error:&errorDesc];
+    
+    
     if (!temp) {
-        NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
+        NSLog(@"Error reading plist: %@, format: %u", errorDesc, format);
     }
     
     NSString *prefisso = [temp objectForKey:@"prefisso"];
@@ -109,11 +109,12 @@
     return YES;
 }
 
-- (BOOL)peoplePickerNavigationController:
-(ABPeoplePickerNavigationController *)peoplePicker
-      shouldContinueAfterSelectingPerson:(ABRecordRef)person
+
+- (void)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker
+                         didSelectPerson:(ABRecordRef)person
                                 property:(ABPropertyID)property
                               identifier:(ABMultiValueIdentifier)identifier
+
 
 {
     NSString* name = (__bridge_transfer NSString*)ABRecordCopyValue(person,
@@ -169,8 +170,8 @@
     [self dismissViewControllerAnimated:YES completion:nil];
     [self showActionSheet];
 
-    return NO;
 }
+
 
 
 - (IBAction)ShowPicker:(id)sender {
